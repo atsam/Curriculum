@@ -1,4 +1,4 @@
-* {
+/** {
 box-sizing: border-box;
 
 }
@@ -12,74 +12,106 @@ body{
   max-width: 100%;
   width: 960px;
   margin: 20px auto;
+}*/
+html{
+  color: rgb(87, 88, 89);
+  font-family: 'Quicksand' , sans-serif;
 }
-
-.header {
+body{
+  margin: 0 auto;
+}
+main{
+  margin: 0 auto;
   display: flex;
 }
-.commun{
-  width: 50%;
-  padding: 0 30px;
+img{
+  border-radius: 50%;
+  width:120px;
+  padding-top: 20px;
+  padding-left: 10%;
 }
-
-
-
-#contact{
-  text-align: left;
-  padding: 0 10px 0 200px ;
+/*div genre*/
+.genre{
+  padding-top: 2.5rem;
+  list-style: none;
 }
-#info{
-  padding: 0 40px;
+.genre i {
+  padding-right: 10px;
 }
-/* CSS header au dessus*/
-
-.conteneur{
-  display:flex;
-  flex-wrap: wrap;
-  padding-top: 50px;
-/*  border: 1px solid red;*/
+/*div competences*/
+.competences{
+  margin-top: 2.5rem;
+  /*list-style: none;*/
 }
-.article {
-  width: 50%;
-  padding-left: 30px;
+/*div langues*/
+.langues{
+  margin-top: 2.5rem;
+  list-style: none;
+}
+/*div Infos*/
+.infos{
+  margin-top: 2.5rem;
+  list-style: none;
 
 }
-
-
-#Experience{
-  padding-left: 70px;
-  margin-top: 15px;
+.infos ul{
+  padding-left: 20px;
 }
+.part1{
+  width: 25%;
+  padding-left: 54px;
+  background-color: #F6F7F2;
+  box-shadow: inset 0px 2px 2px 2px #ededed ;
+  padding-bottom: 0.8rem;
 
-
-.normal {
-  display: flex;
 }
-
-.partie {
+.part2{
+  width: 75%;
+  padding-left: 15px;
+  padding-bottom: 0.8rem;
+}
+.part2 p:first-child{
+  color: #97CE68;
+}
+.formation p{
+  padding-left: 25px;
+}
+.exp_pro p{
+  padding-left: 25px;
+}
+h1{
+  background-color: #00B5B5;
+  height: 3.3rem;
+  margin-top: 0;
+  padding-top: 10px;
+  margin-bottom: 0;
   padding-left: 15px;
 }
-
-#partie2{
-  border-left: 1px solid black;
-  margin-left: 35px;
+span{
+  color: #97CE68;
+}
+hr{
+  border: 1px dotted rgb(87, 88, 89);
+  margin-left: 30px;
+  margin-right:120px;
 }
 
-/* CSS conteneur au dessus*/
-
-.element{
+.fa-circle{
+  color: #00B5B5;
+}
+i{
+  color:#00B5B5;
+}
+footer{
   display: flex;
-  margin-top: 15px;
-  padding-bottom: 100px;
+  height: 4.3rem;
+  justify-content: space-around;
+  background-color: #00B5B5;
+  /*margin-top: .8rem;*/
 }
-
-
-.aside{
-  width: 50%;
-  padding-left: 30px;
+footer p:first-child{
+  margin-top: 3px;
 }
-
-a{
-  color:white;
+footer i{
+  color: grey;
 }
-/* CSS element au dessus*/
